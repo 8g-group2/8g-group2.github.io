@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(31, 42, 53);
+}
+
+/* Link to main website */
+#website-name {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 0.2%;
+    text-decoration: none;
+}
+#website-name>span {
+    font-size: 20px;
+    color: rgb(255, 255, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+#website-name>span:hover {
+    color: rgb(200, 200, 0);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#award {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 5%;
+}
